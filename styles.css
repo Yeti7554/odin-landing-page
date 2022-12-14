@@ -11,15 +11,15 @@ body {
     justify-content: space-between;
     background-color:#1F2937 ;
     align-items: baseline;
-    padding-left: 75px;
+    padding-left: 100px;
     padding-top: 10px;
-    padding-right: 30px;
+    padding-right: 100px;
 }
 
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .header-links {
@@ -34,6 +34,7 @@ body {
     display: flex;
     padding: 100px;
     gap: 24px;
+    justify-content: space-evenly;
 }
 
 .c1-text {
@@ -55,23 +56,26 @@ body {
 
 .c1-button {
     padding: 10px 35px;
-    border-radius: 12px;
+    border-radius: 8px;
     background-color: #3882F6;
     color: #E5E7EB;
     font-weight: bold;
     box-shadow: none;
     border: 0;
+    margin-left: 12px;
 }
 
 .container-2 {
+    display: flex;
     flex-direction: column;
-    padding: 75px;
+    padding: 100px;
+    gap: 42px;
 }
 
 .c2-title {
     display: flex;
     font-size: 36px;
-    font-weight: bold;
+    font-weight:900;
     color: #1F2937;
     justify-content: center
 }
@@ -88,26 +92,46 @@ body {
 .c2-body {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 12px;
+    justify-content: center;
 }
 
 .c2-card{
+    display: flex;
+    flex-direction: column;
     width: 200px;
     text-align: center;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+
+.false-image {
+    height: 140px;
+    width: 140px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+    margin-left: 16px;
+}
+
+.card-text {
+    width: 180px;
 }
 
 .container-quote {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 75px;
+    padding: 100px;
+    justify-content: center;
+    padding-right: 225px;
+    padding-left: 225px;
 }
 
 .c3-body {
-    font-size: 36px;
+    font-size: 32px;
     font-style: italic;
     color: #1F2937;
+    justify-content: center;
 }
 
 .c3-thor {
@@ -140,7 +164,7 @@ body {
 
 .signup-button-2{
     padding: 10px 35px;
-    border-radius: 12px;
+    border-radius: 8px;
     background-color: #3882F6;
     color: #E5E7EB;
     font-weight: bolder;
